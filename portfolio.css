@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+main {
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) 
+  minmax(2rem, 1fr);
+  margin-top: 50px;
+  background-image: url(https://free4kwallpapers.com/uploads/wallpaper/xp-rocket-league-cyberpunk-wallpaper-1440x900-wallpaper.jpg);
+  background-repeat: no-repeat;
+  
+}
+header {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: black;
+  margin-top: -3.1rem;
+}
+header #header-img {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  z-index: 2;
+}
+#navbar {
+  height: 40px;
+  width: 70%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#navbar a{
+  text-decoration: none;
+  color: aliceblue;
+}
+#welcome-section{
+  display:flex;
+  flex-direction:row;
+  width:70vw;
+  height:100vh;
+  margin:2rem auto;
+  border:1ch solid rgb(243, 207, 160);
+  border-radius: 30% 0 0 0;
+}
+.profile-img{
+  height:200px;
+  width:150px;
+  margin-top: -0.5rem;
+  margin-left: -3rem;
+}
+.profile-img img{
+  border-radius: 50%;
+  margin-left: -3rem;
+  height:200px;
+  width:200px;
+  margin-top: -0.5rem;
+  box-shadow: 5px 5px 5px gray;
+} 
+.about{
+  height:100%;
+  width:300px;
+  background-color:burlywood;
+  border-radius: 100% 0 0 0;
+}
+.about h1{
+  margin-top: 200px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.5ch;
+  font-weight: 200;
+  color: darkslategray;
+}
+.about p{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  color: dodgerblue;
+}
+#projects{
+  display: flex;
+  flex-basis: 1;
+  justify-content: space-evenly;
+  width:100%;
+  height:fit-content;
+  background-image: url(https://images.wallpaperscraft.com/image/single/drone_camera_technology_171576_300x168.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-color: rgb(238, 223, 204, 0.1);
+}
+.project-tile{
+  display: flex;
+  flex-direction: column;
+  height:300px;
+  align-items: center;
+  justify-content: center;
+}
+.project-img{
+  width:90%;
+  height:200px;
+  margin: 0 auto;
+}
+.btn{
+  color:aqua;
+  background-color: black;
+  width:100px;
+  height:2rem;
+  border-radius: 2rem;
+  border: 0.3px solid wheat;
+  margin-top: 1rem;
+}
+.btn:hover{
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid black;
+  width:120px;
+  height: 2.2rem;
+  margin-top: 0.8rem;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height:100px;
+  margin: 1rem auto -1rem auto;
+  background-color: black;
+}
+footer #hit-us{
+  width:50%;
+  height:100%;
+  border: 1px solid white;
+}
+#hit-us h3{
+  color: aliceblue;
+  font-size: medium;
+  font-style: oblique;
+  text-align: center;
+}
+#hit-us p{
+  color: aliceblue;
+  font-size: medium;
+  font-style: normal;
+  text-align: center;
+}
+#socials{
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+  margin-top: 0;
+}
+#socials ul{
+ display: block;
+}
+#socials li{
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+}
+#socials a{
+  color: wheat;
+}
+
+
